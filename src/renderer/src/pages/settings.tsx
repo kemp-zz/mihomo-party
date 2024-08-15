@@ -185,7 +185,7 @@ const Settings: React.FC = () => {
             size="sm"
             className="w-[60%]"
             value={url}
-            placeholder="默认https://www.gstatic.com/generate_204"
+            placeholder="默认http://cp.cloudflare.com/generate_204"
             onValueChange={(v) => {
               setUrl(v)
               setUrlDebounce(v)
